@@ -1,0 +1,79 @@
+<div class="blog-content">
+    <div class="blog-cards">
+        @@include('../components/_blog-card.html',{
+        "imgblogcard": "./assets/images/blog",
+        "titleblogcard": "Going all-in with millennial design",
+        "who": "Admin",
+        "when": "14 Oct 2022",
+        "category": "Wood"
+        })
+        @@include('../components/_blog-card.html',{
+        "imgblogcard": "./assets/images/blog2",
+        "titleblogcard": "Exploring new ways of decorating",
+        "who": "Admin",
+        "when": "14 Oct 2022",
+        "category": "Handmade"
+        })
+        @@include('../components/_blog-card.html',{
+        "imgblogcard": "./assets/images/blog3",
+        "titleblogcard": "Handmade pieces that took time to make",
+        "who": "Admin",
+        "when": "14 Oct 2022",
+        "category": "Wood"
+        })
+    </div>
+    <div class="side-content">
+        @@include('../components/_search-blog.html')
+        <div class="categorys">
+            <div class="title-cat">Categories</div>
+            @@include('../components/_categories.html',{
+            "namecat": "Craft",
+            "quancat": "2"
+            })
+            @@include('../components/_categories.html',{
+            "namecat": "Design",
+            "quancat": "8"
+            })
+            @@include('../components/_categories.html',{
+            "namecat": "Handmade",
+            "quancat": "7"
+            })
+            @@include('../components/_categories.html',{
+            "namecat": "Interior",
+            "quancat": "1"
+            })
+            @@include('../components/_categories.html',{
+            "namecat": "Wood",
+            "quancat": "6"
+            })
+        </div>
+        <div class="posts-side">
+            <div class="title-posts">Recent Posts</div>
+            @@include('../components/_posts.html',{
+            "imgpost": "./assets/images/post",
+            "namepost": "Going all-in with millennial design",
+            "datepost": "03 Aug 2022"
+            })
+            @@include('../components/_posts.html',{
+            "imgpost": "./assets/images/post2",
+            "namepost": "Exploring new ways of decorating",
+            "datepost": "03 Aug 2022"
+            })
+            @@include('../components/_posts.html',{
+            "imgpost": "./assets/images/post3",
+            "namepost": "Handmade pieces that took time to make",
+            "datepost": "03 Aug 2022"
+            })
+            @@include('../components/_posts.html',{
+            "imgpost": "./assets/images/post4",
+            "namepost": "Modern home in Milan",
+            "datepost": "03 Aug 2022"
+            })
+            @@include('../components/_posts.html',{
+            "imgpost": "./assets/images/post5",
+            "namepost": "Colorful office redesign",
+            "datepost": "03 Aug 2022"
+            })
+        </div>
+    </div>
+</div>
