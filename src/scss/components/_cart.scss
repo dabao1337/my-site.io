@@ -1,0 +1,101 @@
+.cart {
+    width: 1240px;
+    height: 536px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .cart-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .total {
+        height: 55px;
+        width: 817px;
+        background-color: var(--color-filter-bg);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        padding-left: 142px;
+        padding-right: 146px;
+
+    }
+
+    .product-cart {
+        font-weight: 600;
+    }
+
+    .current {
+        width: 789px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5%;
+        padding-right: 45px;
+        gap: 15px;
+    }
+
+    .current-quantity {
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .cart-totals {
+        width: 393px;
+        height: 390px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-filter-bg);
+        align-items: center;
+
+        .title-carttotals {
+            font-size: 2rem;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 3%
+        }
+
+        .subtotal-carttotals {
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            margin-top: 15%;
+            gap: 50px;
+            .subtotal{
+                font-size: 1rem;
+                font-weight: 600;
+            }
+            .subtotal-price{
+                font-size: 1rem;
+                color: var(--color-black-9F);
+            }
+        }
+
+        .total-carttotals {
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            margin-top: 10%;
+            gap: 45px;
+            .carttotal{
+                font-size: 1rem;
+                font-weight: 600;
+            }
+            .carttotal-price{
+                font-size: 1.25rem;
+                color: var(--color-golden);
+                font-weight: 500;
+            }
+        }
+
+    }
+}

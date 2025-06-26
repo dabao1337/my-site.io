@@ -1,0 +1,22 @@
+.shapka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+
+    .bg_photo{
+        position: relative;
+        width: 1440px;
+        height: auto;
+    }
+
+    .rectangle{
+        position: absolute;
+        width: 643px;
+        height: 443px;
+        background-color: var(--color-beige-bg);
+        margin-top: 5%;
+        margin-left: 45%;
+        border-radius: 15px;
+    }
+}

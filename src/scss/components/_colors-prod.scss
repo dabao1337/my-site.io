@@ -1,0 +1,36 @@
+.colors-prod {
+    float: right;
+    margin-right: 41.8%;
+    margin-top: -5%;
+    .title-color {
+        font-size: 0.875rem;
+        color: var(--color-black-9F);
+    }
+    .colors {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-top: 10%;
+
+        .color1 {
+            background-color: #816DFA;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        .color2 {
+            background-color: var(--color-black-100);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        .color3 {
+            background-color: var(--color-golden);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+    }
+}

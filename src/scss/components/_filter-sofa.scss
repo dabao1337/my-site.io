@@ -1,0 +1,34 @@
+.filter-sofa{
+    width: 1440px;
+    height: 100px;
+    background-color: var(--color-filter-bg);
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    .home-fil{
+        font-size: 1rem;
+        color: var(--color-black-9F);
+        margin-left: 11%;
+    }
+    .strelka{
+        margin-left: 1.5%;
+        font-weight: 900;
+    }
+    .shop-fil{
+        font-size: 1rem;
+        color: var(--color-black-9F);
+        margin-left: 1.5%;
+    }
+    .hrvertical-fil{
+        border-left: 2px solid var(--color-black-9F);
+        height: 40px;
+        margin-left: 2%;
+    }
+    .product-name-fil{
+        font-size: 1rem;
+        margin-left: 2%;
+        font-weight: 500;
+    }
+}

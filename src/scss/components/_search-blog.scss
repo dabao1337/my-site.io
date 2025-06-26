@@ -1,0 +1,11 @@
+.search{
+    display: flex;
+    margin-top: 1%;
+    .search-bar{
+        width: 311px;
+        height: 58px;
+        border: 2px solid var(--color-black-9F);
+        border-radius: 15px;
+        padding-left: 15px;
+    }
+}

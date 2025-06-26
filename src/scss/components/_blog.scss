@@ -1,0 +1,41 @@
+.blog-content {
+    display: flex;
+    flex-direction: row;
+    width: 1243px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    gap: 71px;
+
+    .blog-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .side-content {
+        display: flex;
+        flex-direction: column;
+        .categorys{
+            width: 251px;
+            margin-top: 15%;
+            margin-left: auto;
+            margin-right: auto;
+
+            .title-cat{
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+        }
+        .posts-side{
+            width: 252px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40%;
+            .title-posts{
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+        }
+    }
+}

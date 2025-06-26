@@ -1,0 +1,18 @@
+.form-email{
+    .newsletter input {
+        width: 75%;
+        padding-bottom: 5px;
+        border-bottom:2px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-bottom: 10px;
+        font-size: 0.875rem;
+        margin-left: -56%;
+        margin-top: 12%;
+    }
+    .newsletter::placeholder{
+        color: var(--color-black-9F);
+        
+    }
+}

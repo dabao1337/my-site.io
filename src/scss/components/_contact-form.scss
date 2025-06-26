@@ -1,0 +1,39 @@
+.contact-form {
+    width: 531px;
+
+    .form-field {
+        margin-bottom: 20px;
+    }
+
+    .form-field label {
+        display: block;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    .form-field input,
+    .form-field textarea {
+        width: 529px;
+        height: 75px;
+        padding: 30px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        color: var(--color-black-9F);
+    }
+
+    .form-field textarea {
+        min-height: 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

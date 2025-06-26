@@ -1,0 +1,17 @@
+.size-block{
+    display: flex;
+    float: right;
+    margin-right: 40.8%;
+    margin-top: -12%;
+    .title-size{
+        font-size: 0.875rem;
+        color: var(--color-black-9F);
+    }
+    .size-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30%;
+        margin-left: -20%;
+        gap: 10px;
+    }
+}
