@@ -1,0 +1,85 @@
+// ==== 1. Utils ====
+@use 'utils/variables';
+
+// ==== 2. Base styles ====
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/layout';
+
+// ==== 3. Layout ====
+@use 'layout/container';
+
+// ==== 4. Components ====
+@use 'components/button';
+@use 'components/card';
+@use 'components/header';
+@use 'components/nav-link';
+@use 'components/shapka';
+@use 'components/title-shapka';
+@use 'components/button-shapka';
+@use 'components/title';
+@use 'components/range';
+@use 'components/product-card';
+@use 'components/products';
+@use 'components/rooms-shapka';
+@use 'components/name-rooom';
+@use 'components/button-room';
+@use 'components/circle';
+@use 'components/furniture';
+@use 'components/footer';
+@use 'components/form-email';
+@use 'components/button-footer';
+@use 'components/footer-links-title';
+@use 'components/shapka-main';
+@use 'components/button-prod';
+@use 'components/circle-prod';
+@use 'components/hover-cards';
+@use 'components/product-page2';
+@use 'components/filter';
+@use 'components/quality';
+@use 'components/quality-compon';
+@use 'components/filter-sofa';
+@use 'components/card-product';
+@use 'components/types-product';
+@use 'components/main-prod';
+@use 'components/desc-prod';
+@use 'components/title-prod';
+@use 'components/price-prod';
+@use 'components/star-prod';
+@use 'components/halfstar';
+@use 'components/review-prod';
+@use 'components/description';
+@use 'components/size-block';
+@use 'components/size-button';
+@use 'components/colors-prod';
+@use 'components/btn-addtocart';
+@use 'components/counter';
+@use 'components/product-page3';
+@use 'components/big-desc';
+@use 'components/pic-block';
+@use 'components/footer-desc';
+@use 'components/button-page';
+@use 'components/comparison';
+@use 'components/comparison-product';
+@use 'components/select-com';
+@use 'components/table-com';
+@use 'components/button-com';
+@use 'components/cart';
+@use 'components/button-carttotal';
+@use 'components/forma';
+@use 'components/forma-order';
+@use 'components/order';
+@use 'components/button-order';
+@use 'components/contact';
+@use 'components/blog';
+@use 'components/sidebar-cart';
+@use 'components/subtotal-sidebarcart';
+@use 'components/button-sidebar';
+@use 'components/titles-contact';
+@use 'components/contact-info';
+@use 'components/contact-form';
+@use 'components/button-contact';
+@use 'components/blog-card';
+@use 'components/search-blog';
+@use 'components/categories';
+@use 'components/posts';

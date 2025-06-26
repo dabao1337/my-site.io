@@ -1,0 +1,15 @@
+.button-carttotal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 222px;
+    height: 59px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    margin-top: 20%;
+    color: var(--color-black-100);
+    &:hover{
+        background-color: var(--color-black-100);
+        color: var(--color-white);
+    }
+}

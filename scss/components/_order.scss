@@ -1,0 +1,81 @@
+.order {
+    .order-summary {
+        flex: 1;
+        padding: 20px;
+        border-radius: 8px;
+        width: 553px;
+
+        .titls {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .prod-order {
+            margin-top: 4%;
+            display: flex;
+            justify-content: space-between;
+
+            .product-order {
+                font-size: 1rem;
+                color: var(--color-black-9F);
+            }
+
+            .quantity-order {
+                padding-right: 55%;
+            }
+        }
+
+        .subtotal-order {
+            margin-top: 3%;
+            display: flex;
+            justify-content: space-between;
+
+            .subtotalorder-title {
+                font-size: 1rem;
+            }
+        }
+
+        .total-order {
+            margin-top: 3%;
+            display: flex;
+            justify-content: space-between;
+
+            .pricetotal-order {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: var(--color-golden);
+            }
+        }
+
+        .hr-order {
+            border-top: 1px solid var(--color-black-9F);
+            margin-top: 3%;
+        }
+
+        .payment-methods {
+            margin-top: 5%;
+
+            .small-text {
+                font-size: 1rem;
+                color: var(--color-black-9F);
+            }
+
+            label {
+                display: block;
+                margin: 10px 0 5px;
+                font-weight: 600;
+            }
+    
+        }
+    }
+
+    a{
+        color: black;
+    }
+    .privacy{
+        margin-top: 4%;
+    }
+
+}

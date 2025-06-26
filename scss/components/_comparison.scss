@@ -1,0 +1,55 @@
+.comparison {
+    max-width: 1300px;
+    margin: 5% auto;
+
+    .main-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 40px;
+        flex-wrap: nowrap;
+    }
+
+    .left-panel {
+        flex: 0 0 200px;
+    }
+
+    .title-comparison {
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: #222;
+        width: 95%;
+    }
+
+    .link-product {
+        font-size: 1.25rem;
+        text-decoration: none;
+        border-bottom: 2px solid #ccc;
+        color: #555;
+        font-weight: 500;
+        margin-top: 8%;
+        display: inline-block;
+    }
+
+    .blocks-sofa {
+        display: flex;
+        flex: 1;
+        gap: 50px;
+        margin-top: 1%;
+        flex-wrap: wrap;
+    }
+
+    .sidebar-row {
+        flex: 0 0 220px;
+    }
+
+    .title-add {
+        font-size: 1.5rem;
+        margin-bottom: 5%;
+        font-weight: 700;
+    }
+
+    .table {
+        display: flex;
+    }
+}

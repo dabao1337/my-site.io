@@ -1,0 +1,23 @@
+.footer-desc {
+    width: 606px;
+    margin-left: auto;
+    margin-right: 30px;
+    float: right;
+    font-size: 1rem;
+    color: var(--color-black-9F);
+
+    .hr-footer {
+        border-bottom: 1px solid var(--color-black-9F);
+        width: 606px;
+        margin-top: 5%;
+    }
+
+    .sku {
+       
+        margin-top: 5%;
+    }
+
+    .category,.tags,.share {
+        margin-top: 2%;
+    }
+}

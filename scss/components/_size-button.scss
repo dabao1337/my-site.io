@@ -1,0 +1,15 @@
+.size-button{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-filter-bg);
+    border: none;
+    border-radius: 5px;
+    color: var(--color-black-100);
+    &:hover{
+        background-color: var(--color-golden);
+        color: var(--color-white);
+    }
+}

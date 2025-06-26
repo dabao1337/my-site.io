@@ -1,0 +1,17 @@
+.button-prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border: 2px solid var(--color-golden);
+    width: 245px;
+    height: 48px;
+    font-size: 1rem;
+    color: var(--color-golden);  
+    font-weight: 500;
+    &:hover{
+        background-color: rgb(192, 192, 192);
+    }
+}

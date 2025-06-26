@@ -1,0 +1,22 @@
+.desc-prod{
+    .stars{
+        display: flex;
+        float: right;
+        flex-wrap: wrap;
+        margin-right: 42%;
+        margin-top: -24%;
+        gap: 6px;
+    }
+    .razdelitel{
+        border-left: 2px solid var(--color-black-9F);
+        height: 40px;
+        float: right;
+        margin-right: 40%;
+        margin-top: -24%;
+    }
+    .btns-desc{
+        margin-top: 1%;
+        float: right;
+        margin-right: 6.3%;
+    }
+}
