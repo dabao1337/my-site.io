@@ -1,0 +1,80 @@
+<footer class="footer">
+    <div class="hr-long"></div>
+    <div class="container-footer">
+        <div class="footer-section">
+            <div class="title-logo-footer">Furniro.</div>
+            <div class="text-footer">400 University Drive Suite 200 
+                Coral Gables, <br>FL 33134 USA</div>
+        </div>
+        <div class="footer-links-container">
+            <div class="footer-section">
+                @@include('../components/_footer-links-title.html',{
+                    "links": "Links"
+                })
+                <nav class="nav-footer">
+                <ul class="links-column-link">
+                    <li>
+                        @@include('../components/_nav-link.html',{
+                            "children": "Home",
+                            "href": "#"
+                        })
+                    </li>
+                    <li>
+                        @@include('../components/_nav-link.html',{
+                            "children": "Shop",
+                            "href": "#"
+                        })
+                    </li>
+                    <li>
+                        @@include('../components/_nav-link.html',{
+                            "children": "About",
+                            "href": "#"
+                        })
+                    </li>
+                    <li>
+                        @@include('../components/_nav-link.html',{
+                            "children": "Contact",
+                            "href": "index8.html"
+                        })
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-section">
+        @@include('../components/_footer-links-title.html',{
+            "links": "Help"
+        })
+            <nav class="nav-footer">
+                <ul class="links-column-help">
+                    <li>
+                        @@include('../components/_nav-link.html',{
+                            "children": "Payment Options",
+                            "href": "#"
+                        })
+                    </li>
+                    <li>
+                        @@include('../components/_nav-link.html',{
+                            "children": "Returns",
+                            "href": "#"
+                        })
+                    </li>
+                    <li>
+                        @@include('../components/_nav-link.html',{
+                            "children": "Privacy Policies",
+                            "href": "#"
+                        })
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+        <div class="footer-section">
+            <form>
+                <div class="footer-email-title">Newletter</div>
+                @@include('../components/_form-email.html')
+            </form>
+        </div>  
+    </div>
+    <div class="hr-short"></div>
+    <div class="copyright">2023 furino. All rights reverved</div>
+</footer>

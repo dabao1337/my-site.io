@@ -1,0 +1,40 @@
+<div class="comparison">
+    <div class="main-row">
+        <div class="left-panel">
+            <div class="title-comparison">Go to Product page for more Products</div>
+            <a href="index2.html" class="link-product">View More</a>
+        </div>
+        <div class="blocks-sofa">
+            @@include('../components/_comparison-product.html',{
+            "imgpic": "../assets/images/sofapic1",
+            "titlecom": "Asgaard Sofa",
+            "pricecom": 'Rs. 250,000.00',
+            "score": "4.7",
+            "reviews": "204 Review"
+            })
+            @@include('../components/_comparison-product.html',{
+            "imgpic": "../assets/images/sofapic2",
+            "titlecom": "Outdoor Sofa Set",
+            "pricecom": 'Rs. 224,000.00',
+            "score": "4.2",
+            "reviews": "145 Review"
+            })
+        </div>
+        <div class="sidebar-row">
+            <div class="title-add">Add A Product</div>
+            <div class="select-wrap">
+                @@include('../components/_select-com.html',{
+                "onepr":"Asgaard Sofa",
+                "twopr": "Outdoor Sofa Set"
+                })
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="table">
+    @@include('../components/_table-com.html')
+</div>
+
+</div>
+</div>
